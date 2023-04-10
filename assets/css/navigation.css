@@ -1,0 +1,38 @@
+.navigation {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    min-height: calc(100vh - 100px);
+}
+
+.navigation button:nth-child(1) {
+    background-color: #f6f9ff;
+    color: #49a4f8;
+    margin-top: 30px;
+}
+
+.title-dashbord {
+    margin-left: 16px;
+}
+
+.navigation button {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #555;
+    border: none;
+    border-radius: 8px;
+    font-weight: 700;
+}
+
+.navigation button:hover {
+    background-color: #f6f9ff;
+    color: #49a4f8;
+}
+
+.icon-nav {
+    margin-right: 16px;
+}
+

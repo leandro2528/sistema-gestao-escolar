@@ -1,0 +1,20 @@
+footer {
+    height: 40px;
+    background-color: #333;
+}
+.btn-footer {
+    display: flex;
+    align-items: center;
+    color: #ccc;
+    background-color: transparent;
+    padding: 0 20px;
+}
+
+.btn-footer:hover {
+    color: #fff;
+}
+
+.btn-footer-title {
+    margin-left: 10px;
+    font-size: 12px;
+}

@@ -1,0 +1,33 @@
+.btn-academic-title {
+    color: #333;
+    font-size: 14px;
+    font-weight: 300;
+    background-color: transparent;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 12px;
+}
+
+.btn-academic-title:hover {
+    background-color: #f6f9ff;
+    padding: 10px 10px;
+}
+
+.btn-academic-title:hover .icon-title {
+    color: #49a4f8;
+}
+
+.icon-academic {
+    color: #49a4f8; 
+    margin-left: 30px;
+}
+
+.btnTurma {
+    background-color: transparent;
+    border: none;
+}
+
+.accordion-body {
+    display: flex;
+}
+

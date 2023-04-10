@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 60px;
+    box-shadow: 10px 4px 3px #ddd;
+}
+
+.topbar-logo {
+    display: flex;
+    align-items: center;
+    width: 280px;
+    height: 60px;
+}
+
+.logo-icon {
+    color: #333;
+}
+
+.logo-title {
+    color: #333;
+    font-size: 30px;
+    margin-left: 6px;
+    font-weight: bold;
+}
+
+.topbar-icon-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    width: 100px;
+    height: 60px;
+}
+
+.topbar-icon-menu {
+    color: #555;
+}
+
+.topbar-search {
+    display: flex;
+    align-items: center;
+}
+
+.box-search {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    height: 30px;
+    border: 1px solid #555;
+    border-radius: 12px;
+}
+
+.box-search input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    width: 100%;
+}
+
+.search-icon {
+    margin-right: 10px;
+}
+
+.topbar-icons {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.icon-bell {
+    position: relative;
+}
+
+.icon-bell-num {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -6px;
+    left: 16px;
+    width: 22px;
+    height: 22px;
+    background-color: blue;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.icon-menssage {
+    position: relative;
+    margin: 0 20px;
+}
+
+.icon-menssage-num {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -6px;
+    left: 16px;
+    width: 22px;
+    height: 22px;
+    background-color: green;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.user {
+    display: flex;
+   
+}
